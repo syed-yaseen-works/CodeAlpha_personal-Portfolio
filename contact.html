@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact — Syed Yaseen</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="site">
+
+    <!-- NAV -->
+    <header class="nav">
+      <div class="container nav-inner">
+        <a href="index.html" class="brand">Syed Yaseen</a>
+        <button id="navToggle4" class="hamburger" aria-label="Toggle navigation">
+          <span></span><span></span><span></span>
+        </button>
+        <nav class="nav-links" id="navLinks4" aria-label="Main navigation">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="about.html" class="nav-link">About</a>
+          <a href="projects.html" class="nav-link">Projects</a>
+          <a href="contact.html" class="nav-link">Contact</a>
+          <button id="themeToggle4" class="theme-toggle" aria-label="Toggle theme">🌙</button>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="container contact-section fade-up">
+        <h1>Contact</h1>
+        <p class="muted">I'd love to hear about your project or opportunities.</p>
+
+        <div class="contact-grid">
+          <!-- contact form -->
+          <form id="contactForm" class="form card">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" placeholder="Your name" required>
+
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" placeholder="you@example.com" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="6" placeholder="Tell me about your project..." required></textarea>
+
+            <button type="submit" class="btn btn-primary">Send Message</button>
+            <p id="formStatus" class="muted small"></p>
+          </form>
+
+          <!-- contact details -->
+          <aside class="card contact-details">
+            <h3>Get in touch</h3>
+            <p>📞 <a href="tel:7993790568">7993790568</a></p>
+            <p>📧 <a href="mailto:Syedyaseen0307@gmail.com">Syedyaseen0307@gmail.com</a></p>
+            <p>🔗 <a href="https://www.linkedin.com/in/syed-yaseen-a63452376?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener">LinkedIn: Syed Yaseen</a></p>
+            <p>📍 India</p>
+          </aside>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>© 2025 <strong>Syed Yaseen</strong></p>
+      </div>
+    </footer>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
